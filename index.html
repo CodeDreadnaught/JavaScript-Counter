@@ -1,0 +1,40 @@
+<DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter for Javascript</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+    <h1>COUNTER</h1>
+    <div id="counter"><span class="counter">0</span></div>
+    <button id="minus">LOWER COUNT</button>
+    <button id="plus">ADD COUNT</button>
+    <button id="reset">Reset</button>
+    </div>
+    </div>
+    <script>
+    //Codes in this section are of javascript origin
+    let int = 0;
+    number = int;
+    let min = 0;
+    let max = 50;
+    let reset = 0;
+  document.getElementById('plus').addEventListener('click', function(){
+      document.getElementById('counter').innerHTML = number
+     if (number < max){number = number + 1 };
+    } );
+    
+    document.getElementById('minus').addEventListener('click', function(){
+      document.getElementById('counter').innerHTML = number
+      if(number > min){number = number - 1};
+    } );
+    document.getElementById('reset').addEventListener('click', function(){
+      document.getElementById('counter').innerHTML = number
+    if(number = reset ) {number = int};
+    } );
+    </script>
+  </body>
+</html>

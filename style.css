@@ -1,0 +1,43 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    }
+.container { 
+    display: flex;
+    width: 170%;
+    height: 90vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 5px solid white;
+}
+.counter {
+    font-size: 160px;
+    color: darkgreen;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+button {
+    padding: 20px;
+    flex-direction: column;
+    display: flex;
+    align-content: stretch;
+    color: white;
+    margin-bottom: 20px;
+    background-color: darkblue;
+}
+h1 {
+    text-transform: uppercase;
+    font-size: 32px;
+    color: white;
+    margin-bottom: 40px;
+    font-weight: bold;
+}
+body {
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    display: flex;
+    background-image: url(Image/counter-for-javascript-background-image.jpg)
+}
